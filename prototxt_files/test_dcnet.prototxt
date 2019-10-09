@@ -761,7 +761,7 @@ bias_filler {type: "constant"value: 0}}}
 
 layer {name: "SoftmaxWithLoss1" type: "SoftmaxWithLoss" bottom: "InnerProduct1" bottom: "label" top: "SoftmaxWithLoss1"}
 
-## Record The Output of Softmax Layer
+## Record the Output of Softmax Layer
 
 layer {name: "prob" type: "Softmax" bottom: "InnerProduct1" top: "prob" include {phase: TEST }}
 
