@@ -4,7 +4,7 @@ If you have any questions, please contact us. Email: [gaoyunhao128@163.com](mail
 
 Before running this code, you should correctly install ubuntu system and CAFFE framework. Refer to this guildeline "<http://caffe.berkeleyvision.org/installation.html>" After correctly installing ubuntu and caffe, you can run this code by the following procedures. 
 
-(1) The farmland data set (LMDB format) is prepared in "https://share.weiyun.com/5M2gyVd password：ry88at"
+(1) The farmland data set (LMDB format) is prepared in "https://share.weiyun.com/5M2gyVd"
 
 (2) Opening the terminal and running this script to execute the training of DCNet: "sh train.sh"
 
